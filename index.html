@@ -65,7 +65,7 @@
             todoList.appendChild(inputTask);
 
             inputTask.addEventListener("click", () => {
-                todoList.removeChild(inputTask);
+                inputTask.remove();
             })
 
             input.value = "";
